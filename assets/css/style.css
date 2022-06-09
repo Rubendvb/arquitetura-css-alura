@@ -1,0 +1,32 @@
+body {
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 0 2rem;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+}
+
+.header__menu a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 1.25rem;
+  text-transform: lowercase;
+}
+
+.header__menu a:hover {
+  text-decoration: underline;
+}
+
+.header__menu > #ativo {
+  color: #333333;
+  font-weight: bold;
+}
