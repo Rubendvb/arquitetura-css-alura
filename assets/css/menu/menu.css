@@ -1,0 +1,20 @@
+.header__menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu__item--link {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 1.25rem;
+  text-transform: lowercase;
+}
+
+.menu__item--link:hover {
+  text-decoration: underline;
+}
+
+.menu__item.ativo {
+  color: #333333;
+  font-weight: bold;
+}

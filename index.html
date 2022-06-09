@@ -9,19 +9,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fruta & Fruto</title>
-    <link href="./assets/css/normalize.css" rel="stylesheet" />
-    <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="./assets/css/base/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/base/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="assets/img/logo.jpg" alt="Fruta e Fruto" />
+    <header class="cabecalho">
+      <img class="logo" src="assets/img/logo.jpg" alt="Fruta e Fruto" />
       <nav>
         <ul class="header__menu">
-          <li id="ativo" class="menu__item"><a href="#">Inicio</a></li>
-          <li class="menu__item"><a href="#">Receitas</a></li>
-          <li class="menu__item"><a href="#">Quem somos</a></li>
-          <li class="menu__item"><a href="#">Comunidade</a></li>
+          <li class="menu__item ativo">
+            <a class="menu__item--link" href="#">Início</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item--link" href="#">Receitas</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item--link" href="#">Quem somos</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item--link" href="#">Comunidade</a>
+          </li>
         </ul>
       </nav>
     </header>
