@@ -1,0 +1,19 @@
+.sobre {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.sobre__titulo {
+  font-family: Pacifico, cursive;
+  font-size: 3rem;
+  color: #8d0606;
+  line-height: 90px;
+}
+
+.sobre__descricao {
+  font-family: Roboto, sans-serif;
+  font-size: 1.75rem;
+  color: #595959;
+  font-weight: 100;
+  margin-top: 1rem;
+}
