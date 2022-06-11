@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="assets/css/banner/banner.css" />
     <link rel="stylesheet" href="assets/css/sobre/sobre.css" />
     <link rel="stylesheet" href="assets/css/receitas/receitas.css" />
+    <link rel="stylesheet" href="assets/css/quemSomos/quemSomos.css" />
+    <link rel="stylesheet" href="assets/css/quemSomos/pessoa.css" />
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css" />
   </head>
   <body>
     <header class="cabecalho">
-      <img src="assets/img/logo.jpg" alt="Fruta e Fruto" />
+      <img class="logo" src="assets/img/logo.jpg" alt="Fruta e Fruto" />
       <nav>
         <ul class="header__menu">
           <li class="menu__item ativo">
@@ -39,7 +42,7 @@
     </header>
 
     <section class="banner">
-      <img class="banner__img" src="assets/img/banner.jpg" alt="Banner" />
+      <div class="banner__img"></div>
       <h2 class="banner__titulo">Reaproveitar melhor os alimento</h2>
     </section>
 
@@ -137,5 +140,31 @@
         </div>
       </div>
     </section>
+
+    <section class="quem-somos">
+      <h3 class="quem-somos__titulo">Quem somos</h3>
+      <p class="quem-somos__descricao">
+        Conheça a comunidade por trás da iniciativa
+      </p>
+      <div class="pessoas">
+        <div class="pessoa">
+          <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+          <span class="pessoa__nome">Roberta</span>
+          <span class="pessoa__funcao">Conteúdo</span>
+        </div>
+        <div class="pessoa">
+          <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+          <span class="pessoa__nome">Marcela</span>
+          <span class="pessoa__funcao">Chef de cozinha</span>
+        </div>
+        <div class="pessoa">
+          <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+          <span class="pessoa__nome">Andréia</span>
+          <span class="pessoa__funcao">Pequena Produtora</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="rodape">Contato: exemplo@email.com.br</footer>
   </body>
 </html>
